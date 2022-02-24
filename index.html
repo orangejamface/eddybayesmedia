@@ -9,25 +9,26 @@
 </head>
 <body>
     <script src="java.js"></script>
+
     <div class="container">
         <div class="header">
             <h3>Eddy Bayes Media</h3>
             <h5 class="links">
-                <a href="#" onclick="return toggle('Pg0')">Sound Design</a>
-                <a href="https://www.google.com">Videography</a>
-                <a href="https://www.google.com">Music</a>
+                <button onclick="toggleSound()">Sound Design</button>
+                <button onclick="toggleVideo()">Videography</button>
+                <button onclick="toggleMusic()">Music</button>
             </h5>
         </div>
     </div>
-
+  
 
     <!-- The div below should display when clicking sound design -->
-
+<div id="soundDesign">
     <div class="container2">
             <div class="intro">
                 <div class="left">
-                    <h1>Rehab Cabin</h1>
-                    <p>Twenty-somethings Chloe & Dominic misguidedly kidnap their 
+                    <h1>Sound Design</h1>
+                    <p><strong>LATEST: <em>Rehab Cabin - </em></strong>Twenty-somethings Chloe & Dominic misguidedly kidnap their 
                     favorite former child star, Amanda Campbell, in hopes of 
                     returning her to her former glory.</p>
                     <div class="linkto">
@@ -44,42 +45,132 @@
     <div class="midtop">
             <h2>other credits</h2>
         <div class="boxtext">
-            <div class="boxes">
+            <!-- <div class="boxes"> -->
                 <div class="vidcont">
                     <div>
-                        <div> <iframe width="280" height="157" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
                         </iframe></div>
                         <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
                     </div>
                     <div>
-                        <div> <iframe width="280" height="157" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
                         </iframe></div>
                         <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
                     </div>
                     <div>
-                        <div> <iframe width="280" height="157" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
                         </iframe></div>
                         <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
                     </div>
                     <div>
-                        <div> <iframe width="280" height="157" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
                         </iframe></div>
                         <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
                     </div>
                 </div>
-                <!-- <div class="border"></div>
-                <div class="border"></div>
-                <div class="border"></div> -->
-            </div>
-            <!-- <div class="text">
-                <p>This is some subtext under an illustration of image</p>
-                <p>This is some subtext under an illustration of image</p>
-                <p>This is some subtext under an illustration of image</p>
-                <p>This is some subtext under an illustration of image</p>
-            </div> -->
         </div>
     </div>
-  
+</div> 
+
+<div id="video">
+    <div class="container2">
+            <div class="intro">
+                <div class="left">
+                    <h1>Videography</h1>
+                    <p><strong>LATEST: <em>Rehab Cabin - </em></strong>Twenty-somethings Chloe & Dominic misguidedly kidnap their 
+                    favorite former child star, Amanda Campbell, in hopes of 
+                    returning her to her former glory.</p>
+                    <div class="linkto">
+                        <button><a href="https://www.imdb.com/title/tt10659270/">IMDB</a></button>
+                        <button><a href="https://www.google.com">Sign Up</a></button>
+                        <button><a href="https://www.google.com">Sign Up</a></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <iframe width="420" height="236" src="https://www.youtube.com/embed/fSLPXsZ-wTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+    </div>
+    <div class="midtop">
+            <h2>other credits</h2>
+        <div class="boxtext">
+            <!-- <div class="boxes"> -->
+                <div class="vidcont">
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div> 
+
+<div id="music">
+    <div class="container2">
+            <div class="intro">
+                <div class="left">
+                    <h1>Music</h1>
+                    <p><strong>LATEST: <em>Rehab Cabin - </em></strong>Twenty-somethings Chloe & Dominic misguidedly kidnap their 
+                    favorite former child star, Amanda Campbell, in hopes of 
+                    returning her to her former glory.</p>
+                    <div class="linkto">
+                        <button><a href="https://www.imdb.com/title/tt10659270/">IMDB</a></button>
+                        <button><a href="https://www.google.com">Sign Up</a></button>
+                        <button><a href="https://www.google.com">Sign Up</a></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <iframe width="420" height="236" src="https://www.youtube.com/embed/fSLPXsZ-wTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+    </div>
+    <div class="midtop">
+            <h2>other credits</h2>
+        <div class="boxtext">
+            <!-- <div class="boxes"> -->
+                <div class="vidcont">
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                    <div>
+                        <div> <iframe width="420" height="235" src="vid/pepper.mp4" frameborder="0" allowfullscreen></iframe>
+                        </iframe></div>
+                        <div>Meet Pepper & Paul <br> Composer <br> Editor</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div> 
+
+
     <div class="midbottom">
         <div class="qcontain">
             <div class="quote">
@@ -109,6 +200,10 @@
         </div>
            
         
+    </div>
+
+    <div id="myDIV">
+        This is my DIV element.
     </div>
 
     <div class="footer">

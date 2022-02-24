@@ -11,6 +11,18 @@ body    {
 
 }
 
+#soundDesign    {
+    display: block;
+}
+
+#video      {
+    display: none;
+}
+
+#music      {
+    display: none;
+}
+
 .container      {
     background-color: #ef7ce1;
     /* padding:0 150px; */
@@ -48,18 +60,21 @@ p {
 
 .container2      {
     background-color: #1f2937;
-    padding:150px 20px 50px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
     /* flex-wrap:wrap; */
 }
 
 .intro      {
     display: flex;
-    margin: 100px 0px;
+    flex-wrap: wrap;
+    /* margin: 100px 0px; */
 }
 
-.left h1    {
+.left h1    {   
     font-size: 60px;
     color:rgb(244, 200, 26);
     text-align: center;
@@ -155,7 +170,7 @@ h2  {
 
 .vidcont  {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -177,11 +192,12 @@ h2  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
     
 }
 
 .boxtext       {
-            width:800px;
+            max-width:1800px;
 }
 
 
