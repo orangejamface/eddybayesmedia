@@ -11,9 +11,9 @@ body    {
 
 }
 
-#soundDesign    {
+/* #soundDesign    {
     display: block;
-}
+} */
 
 #video      {
     display: none;
@@ -296,28 +296,4 @@ h2  {
     width: 100%;
 }
 
-/*.bottom     {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: ;
-}
-
-.bottombox     {
-    display:flex;
-    align-items: center;
-    background-color: #3882f6;
-    padding: 20px;
-    border-radius: 10%;
-}
-
-.call p   {
-    color:white;
-    background-color: #3882f6;
-}
-
-.bottombutton button    {
-    border: 1px solid white;
-
-}
+/* THE FOLLOWING APPLIES TO ALL VIDEO PLAYERS */
